@@ -91,7 +91,7 @@ public class Car {
 	@Column(name = "model", length = 120, nullable = false)
 	private String model;
 	
-	@NotEmpty(message = "El anio no puede estar vacio.")
+	@NotEmpty(message = "El año no puede estar vacio.")
 	@Column(name = "year", length = 20, nullable = false)
 	private String year;
 	
